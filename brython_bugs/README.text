@@ -1,0 +1,10 @@
+If you got syntax error below when you are installing brython:
+
+File "/Users/bohanli/Library/Python/3.9/lib/python/site-packages/brython/__main__.py", line 133
+    match args_1:
+
+That is because your python version < 3.10 and it cant support match. 
+
+This main.py has been already rewritten by python < 3.10
+
+If you dont want to update your python, you can just replace the main.py under your brython folder with this main.py.
